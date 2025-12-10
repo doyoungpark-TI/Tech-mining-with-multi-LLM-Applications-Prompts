@@ -47,7 +47,7 @@ The variations are as follows:
 │
 └── 04_Technical_Solution_Identification/
     ├── ...
-'''
+**` ``` `**
 
 ## Usage
 Each .md file contains the full prompt text used for the LLM input. You can copy the content directly to reproduce our experiments.
