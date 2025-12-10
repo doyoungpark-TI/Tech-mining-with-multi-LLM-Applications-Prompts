@@ -19,12 +19,16 @@ The variations are as follows:
 | Variation | Filename | Description |
 
 | **1. Baseline** | `01_baseline.md` | Basic structure of prompt |
+
 | **2. Positive examples** | `02_pos_examples.md` | Few shot(k=3) examples |
+
 | **3. Negative examples** | `03_neg_examples.md` | Negative examples |
+
 | **4. Definition** | `04_definition.md` | Explicit definitions of tasks |
 
 ## Repository Structure
-
+```text
+.
 ├── LICENSE
 ├── README.md
 │
