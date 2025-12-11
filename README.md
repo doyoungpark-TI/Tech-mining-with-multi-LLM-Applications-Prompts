@@ -1,6 +1,6 @@
 # Prompts for "Identifying Technological Problems and Exploring Potential Solutions  to Support R&amp;D : Tech-mining with multi-LLM Applications"
 
-This repository contains the prompts and experimental data used in the paper "Identifying Technological Problems and Exploring Potential Solutions  to Support R&amp;D : Tech-mining with multi-LLM Applications"
+This repository contains the prompts used in the paper "Identifying Technological Problems and Exploring Potential Solutions  to Support R&amp;D : Tech-mining with multi-LLM Applications"
 We aim to ensure reproducibility and facilitate further research by providing the exact prompts used in our experiments.
 
 ## Task Description
