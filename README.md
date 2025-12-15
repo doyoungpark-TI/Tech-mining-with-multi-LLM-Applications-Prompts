@@ -1,7 +1,7 @@
-# Prompts for "Identifying Technological Problems and Exploring Potential Solutions  to Support R&amp;D : Tech-mining with multi-LLM Applications"
+# Prompts & Resources for "Identifying Technological Problems and Exploring Potential Solutions  to Support R&amp;D : Tech-mining with multi-LLM Applications"
 
-This repository contains the prompts used in the paper "Identifying Technological Problems and Exploring Potential Solutions  to Support R&amp;D : Tech-mining with multi-LLM Applications"
-We aim to ensure reproducibility and facilitate further research by providing the exact prompts used in our experiments.
+This repository contains the prompts and resources used in the paper "Identifying Technological Problems and Exploring Potential Solutions  to Support R&amp;D : Tech-mining with multi-LLM Applications"
+We aim to ensure reproducibility and facilitate further research by providing the exact prompts and resources used in our experiments.
 
 ## Task Description
 We conducted experiments on four specific tasks related to technical problem analysis:
@@ -32,6 +32,15 @@ The variations are as follows:
 ├── LICENSE
 ├── README.md
 │
+├── Data/
+│   ├── Y02E60_32_F17C5_prep_v2.zip
+│
+├── Source Code/
+│   ├── 01_problem_filtering_simplified.py
+│   ├── 02_problem_extraction_simplified.py
+│   ├── 03_causal_extraction_simplified.py
+│   └── 04_solution_extraction.py
+│
 ├── 01_Paragraph_Filtering/
 │   ├── 01_baseline.md
 │   ├── 02_pos_examples.md
@@ -50,8 +59,7 @@ The variations are as follows:
 ```
 
 ## Usage
-Each .md file contains the full prompt text used for the LLM input. You can copy the content directly to reproduce our experiments.
-
+Each .md file contains the full prompt text used for the LLM input. Each .py file contains source code used for each task. You can copy the content directly to reproduce our experiments.
 Placeholders: If the prompts contain placeholders like {{definition_block}}, please replace them with your actual test data.
 
 ## License
